@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 
 /*@font-face {
      font-family: Oxygen !important;
@@ -13,7 +13,7 @@
   font-family: 'Oxygen';
   font-style: normal;
   font-weight: 400;
-  src: local('Oxygen'), local('Oxygen-Regular'), url(http://fonts.gstatic.com/s/Oxygen/v5/8Gf_cHXH2gzsd9z-xuVg5vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  src: local('Oxygen'), local('Oxygen-Regular'), url(https://fonts.gstatic.com/s/Oxygen/v5/8Gf_cHXH2gzsd9z-xuVg5vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }*/
 
@@ -1280,7 +1280,7 @@ a.accordion-toggle i {
         }
 
 #partner {
-    background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
+    background: url(../Images/partners/partner_bg.png) 50% 50% no-repeat;
     background-size: cover;
 }
 
@@ -1307,7 +1307,7 @@ a.accordion-toggle i {
     }
 
 #conatcat-info {
-    background: #fff url(../images/contact.png) no-repeat 90% 0;
+    background: #fff url(../Images/contact.png) no-repeat 90% 0;
     padding: 30px 0;
 }
 
@@ -1756,7 +1756,7 @@ ul.tag {
 }
 
 .clients-comments {
-    background-image: url("../images/image_bg.png");
+    background-image: url("../Images/image_bg.png");
     background-position: center 118px;
     background-repeat: no-repeat;
     margin-bottom: 100px;
@@ -2235,7 +2235,7 @@ ul.pagination > li:hover > a {
 }
 
 .search_box {
-    background-image: url("../images/search_icon.png");
+    background-image: url("../Images/search_icon.png");
     background-position: 314px 15px;
     background-repeat: no-repeat;
     border-color: #DEDEDE;

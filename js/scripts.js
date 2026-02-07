@@ -170,6 +170,7 @@
             vossenFilters = $('.vossen-portfolio-filters li'),
             portfolioItems = $('.vossen-portfolio > div'),
             initialCat;
+        if (!vosPortfolio.length || typeof $.fn.isotope !== 'function') return;
 
         // Init Filter to class except *all
         initFilter.each(function () {
@@ -217,24 +218,32 @@
                 columnWidth: '.vossen-portfolio > div'
             }
         });
-        $grid.imagesLoaded().progress( function() {
-            $grid.isotope('layout');
-        });
+        // Layout when images load (imagesLoaded plugin) or fallback on window load
+        if (typeof $grid.imagesLoaded === 'function') {
+            try {
+                $grid.imagesLoaded().always(function () { $grid.isotope('layout'); });
+            } catch (e) {
+                $(window).on('load', function () { $grid.isotope('layout'); });
+            }
+        } else {
+            $(window).on('load', function () { $grid.isotope('layout'); });
+        }
     }
 
     $(window).resize(function () {
         setTimeout(function(){
-            $('.vossen-portfolio-filters .active').trigger('click');
+            var $active = $('.vossen-portfolio-filters .active');
+            if ($active.length) $active.trigger('click');
         }, 600);
     });
 
     function vossenPortfolio2() {
-
         var vosPortfolio = $('.portfolio-grid'),
             initFilter = $('.portfolio-filters'),
             vossenFilters = $('.portfolio-filters li'),
             portfolioItems = $('.work-item'),
             initialCat;
+        if (!vosPortfolio.length || typeof $.fn.isotope !== 'function') return;
 
         // Init Filter to class except *all
         initFilter.each(function () {
