@@ -1,0 +1,25 @@
+﻿@media screen and (min-width: 992px) {
+    .col-md-8 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-4 {
+        width: 50%;
+    }
+}
+
+.pt140 {
+    padding-top: 100px;
+}
+
+.width100 {
+    width: 100%;
+    height: 350px;
+}
+
+.priceh5 {
+    font-weight: bold;
+    font-size: 15px;
+}

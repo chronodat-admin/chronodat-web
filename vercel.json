@@ -1,0 +1,26 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/Home", "destination": "/index.html" },
+    { "source": "/AboutUS", "destination": "/aboutus.html" },
+    { "source": "/AboutUs", "destination": "/aboutus.html" },
+    { "source": "/Services", "destination": "/services.html" },
+    { "source": "/Products", "destination": "/products.html" },
+    { "source": "/Contact", "destination": "/contact.html" },
+    { "source": "/Privacy", "destination": "/privacy.html" },
+    { "source": "/terms-conditions", "destination": "/terms-conditions.html" },
+    { "source": "/Terms", "destination": "/terms-conditions.html" },
+    { "source": "/helpdesk", "destination": "/helpdesk.html" },
+    { "source": "/helpdesk-lite", "destination": "/helpdesk-lite.html" },
+    { "source": "/issue-tracker", "destination": "/issue-tracker.html" },
+    { "source": "/people-finder", "destination": "/people-finder.html" },
+    { "source": "/change-request-management", "destination": "/change-request-management.html" },
+    { "source": "/change-request-management-plus", "destination": "/change-request-management-plus.html" },
+    { "source": "/risk-management", "destination": "/risk-management.html" },
+    { "source": "/risk-matrix", "destination": "/risk-matrix.html" },
+    { "source": "/task-tracker", "destination": "/task-tracker.html" },
+    { "source": "/calllogs", "destination": "/calllogs.html" },
+    { "source": "/blog", "destination": "/blog.html" },
+    { "source": "/eula", "destination": "/eula.html" }
+  ]
+}

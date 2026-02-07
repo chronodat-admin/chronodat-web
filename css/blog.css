@@ -1,0 +1,9 @@
+﻿p {
+    font-size: 15px;
+    line-height: 1.75;
+    color: #0d0c0c;
+}
+
+body > section > div > div > div.col-md-9 > div > img {
+    border: 1px solid yellow;
+}
