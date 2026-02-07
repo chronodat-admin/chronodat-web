@@ -2,14 +2,23 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Help Desk (Office 365)</title>
+        <title>Chronodat - Blog</title>
+        <meta name="description" content="Read the latest Chronodat blog posts on SharePoint, Office 365, Dynamics 365, and Power Platform tips and tutorials.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Chronodat Blog Posts" />
-        <meta property="og:description" content="Trusted by more than 1,000+ organizations around the world" />
+        <meta property="og:title" content="Chronodat Blog - SharePoint &amp; Power Platform Insights" />
+        <meta property="og:description" content="Tips, tutorials, and guides on SharePoint, Office 365, Dynamics 365, and Power Platform from Chronodat." />
         <meta property="og:url" content="https://www.chronodat.com" />
         <meta property="og:site_name" content="Chronodat" />
+        <meta property="og:image" content="https://www.chronodat.com/img/assets/hero-logo-dark.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Chronodat Blog" />
+        <meta name="twitter:description" content="Tips, tutorials, and guides on SharePoint, Office 365, and Power Platform from Chronodat." />
+        <link rel="canonical" href="https://www.chronodat.com/blog" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
         <link href="Images/favicon.ico" rel="shortcut icon" />
         <link href="css/init.css" rel="stylesheet" type="text/css">
         <link href="css/ion-icons.min.css" rel="stylesheet" type="text/css">
@@ -39,6 +48,16 @@
                 })
             });
         </script>
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.chronodat.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.chronodat.com/blog"}
+            ]
+        }
+        </script>
     </head>
     <body data-fade-in="true">
         <div class="pre-loader"><div></div></div>
@@ -57,21 +76,35 @@
                     <div class="blog-grid">
                         <!-- Blog Items Container-->
                         <div class="vossen-blog-grid d-flex flex-wrap">
-                            <!-- Blog Item 1 -->
+                            <!-- Blog Item 1 - QuizFlex AI -->
+                            <div class="col-md-4 col-sm-6 reveal">
+                                <div class="blog-grid-img" style="background-image: url('img/quizflex/quiz-dashboard-ui.png'); background-size: cover; background-position: center; min-height: 250px;">
+                                    <a href="/blogs/introducing-quizflex-ai.html"></a>
+                                </div>
+                                <div class="blog-grid-content">
+                                    <time><span>Feb</span><span>7</span></time>
+                                    <div class="post-header">
+                                        <h5><span>In</span> <strong><a href="/quizflex" class="color">Products</a></strong></h5>
+                                        <a href="/blogs/introducing-quizflex-ai.html"><h3><strong>Introducing QuizFlex AI – Free AI-Powered Quiz Generator</strong></h3></a>
+                                    </div>
+                                    <p>Meet QuizFlex AI: create quizzes from PDFs, videos, and text in 30 languages, with flashcards, live hosting, and analytics. Free tier available.</p>
+                                </div>
+                            </div>
+                            <!-- Blog Item 2 -->
                             <div class="col-md-4 col-sm-6 reveal">
                                 <div class="blog-grid-img">
-                                    <a href="/blogs/How-To-Remove-App-for-SharePoint-instances-from-a-SharePoint-site.html"></a>
+                                    <a href="/blogs/Receiving-help-desk-requests-by-email.html"></a>
                                 </div>
                                 <div class="blog-grid-content">
                                     <time><span>Apr</span><span>2</span></time>
                                     <div class="post-header">
-                                        <h5><span>In</span> <strong><a href="#" class="color">SharePoint</a></strong></h5>
+                                        <h5><span>In</span> <strong><a href="/blog" class="color">SharePoint</a></strong></h5>
                                         <a href="/blogs/Receiving-help-desk-requests-by-email.html"><h3><strong>Receiving Chronodat Helpdesk requests by email</strong></h3></a>
                                     </div>
                                     <p>Set up an email address to receive requests in your help desk. Emailed requests are added to your Chronodat Helpdesk queues.</p>
                                 </div>
                             </div>
-                            <!-- Blog Item 2 -->
+                            <!-- Blog Item 3 -->
                             <div class="col-md-4 col-sm-6 reveal">
                                 <div class="blog-grid-img">
                                     <a href="/blogs/How-To-Remove-App-for-SharePoint-instances-from-a-SharePoint-site.html"></a>
@@ -79,13 +112,13 @@
                                 <div class="blog-grid-content">
                                     <time><span>Mar</span><span>6</span></time>
                                     <div class="post-header">
-                                        <h5><span>In</span> <strong><a href="#" class="color">SharePoint</a></strong></h5>
+                                        <h5><span>In</span> <strong><a href="/blog" class="color">SharePoint</a></strong></h5>
                                         <a href="/blogs/How-To-Remove-App-for-SharePoint-instances-from-a-SharePoint-site.html"><h3><strong>How To Remove App for SharePoint instances from a SharePoint site</strong></h3></a>
                                     </div>
                                     <p>SharePoint tenant administrators and site owners can remove apps from their SharePoint sites.</p>
                                 </div>
                             </div>
-                            <!-- Blog Item 3 -->
+                            <!-- Blog Item 4 -->
                             <div class="col-md-4 col-sm-6 reveal">
                                 <div class="blog-grid-img">
                                     <a href="/blogs/How-To-Add-Apps-To-Your-Office-365-SharePoint-Online-Site.html"></a>
@@ -93,13 +126,13 @@
                                 <div class="blog-grid-content">
                                     <time><span>Mar</span><span>5</span></time>
                                     <div class="post-header">
-                                        <h5><span>In</span> <strong><a href="#" class="color">SharePoint</a></strong></h5>
+                                        <h5><span>In</span> <strong><a href="/blog" class="color">Office 365</a></strong></h5>
                                         <a href="/blogs/How-To-Add-Apps-To-Your-Office-365-SharePoint-Online-Site.html"><h3><strong>How To Add Apps/Add-In's To Your Office 365 SharePoint Online Site</strong></h3></a>
                                     </div>
                                     <p>SharePoint Apps/Add-In's add new functionalities to your SharePoint Online/On-Prem sites. This post will show you how to add them to your site from the SharePoint app Store.</p>
                                 </div>
                             </div>
-                            <!-- Blog Item 4 -->
+                            <!-- Blog Item 5 -->
                             <div class="col-md-4 col-sm-6 reveal">
                                 <div class="blog-grid-img">
                                     <a href="/blogs/a-beginners-guide-to-building-dynamics-365-model-driven-apps.html"></a>
@@ -107,7 +140,7 @@
                                 <div class="blog-grid-content">
                                     <time><span>Oct</span><span>26</span></time>
                                     <div class="post-header">
-                                        <h5><span>In</span> <strong><a href="#" class="color">Dynamics 365</a></strong></h5>
+                                        <h5><span>In</span> <strong><a href="/blog" class="color">Dynamics 365</a></strong></h5>
                                         <a href="/blogs/a-beginners-guide-to-building-dynamics-365-model-driven-apps.html"><h3><strong>A Beginner's Guide to Building Dynamics 365 Model-Driven Apps</strong></h3></a>
                                     </div>
                                     <p>Learn how to create efficient, data-driven applications with Dynamics 365 Model-Driven Apps.</p>
@@ -128,7 +161,7 @@
                 <li><a href="https://www.youtube.com/channel/UC3JfV39G6AvLrmAXzAfFKRA" target="_blank" class="color"><i class="ion-social-youtube"></i></a></li>
                 <li><a href="https://www.facebook.com/" target="_blank" class="color"><i class="ion-social-facebook"></i></a></li>
             </ul>
-            <a href="#" target="_blank"><strong>© Chronodat, LLC 2023</strong></a>
+            <a href="#" target="_blank"><strong>© Chronodat, LLC 2026</strong></a>
             <p>Made with passion for great people and companies.</p>
             <p><a href="/Privacy" target="_blank" class="color">Privacy & Cookies</a> | <a href="/terms-conditions" target="_blank" class="color">Terms & Conditions</a> | <a href="#" target="_blank" class="color">FAQs</a></p>
             <!-- Back To Top Button -->

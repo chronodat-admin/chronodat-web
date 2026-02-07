@@ -1,4 +1,18 @@
 User-agent: *
 Allow: /
 
+# Block utility/redirect pages
+Disallow: /Home.html
+Disallow: /Home/
+Disallow: /Terms.html
+Disallow: /Terms/
+
+# Block build artifacts
+Disallow: /Build/
+Disallow: /scripts/
+
+# Sitemaps
 Sitemap: https://www.chronodat.com/sitemap.xml
+
+# Host
+Host: https://www.chronodat.com

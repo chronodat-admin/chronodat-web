@@ -23,7 +23,7 @@ Static rewrite of the Chronodat site for deployment on **Vercel**. All previous 
 - **products.html, blog.html, privacy.html, terms-conditions.html** – Main content pages.
 - **helpdesk.html, helpdesk-lite.html, issue-tracker.html, people-finder.html** – Product pages.
 - **change-request-management.html, change-request-management-plus.html** – Change management pages.
-- **risk-management.html, risk-matrix.html, task-tracker.html, calllogs.html** – Other product pages.
+- **risk-management.html, risk-matrix.html, task-tracker.html** – Other product pages.
 - **eula.html** – EULA page.
 - **header.html** – Shared nav fragment loaded by product pages via jQuery.
 - **sitemap.xml** – Updated with current URLs and dates.

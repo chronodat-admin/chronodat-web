@@ -19,8 +19,8 @@
     { "source": "/risk-management", "destination": "/risk-management.html" },
     { "source": "/risk-matrix", "destination": "/risk-matrix.html" },
     { "source": "/task-tracker", "destination": "/task-tracker.html" },
-    { "source": "/calllogs", "destination": "/calllogs.html" },
     { "source": "/blog", "destination": "/blog.html" },
-    { "source": "/eula", "destination": "/eula.html" }
+    { "source": "/eula", "destination": "/eula.html" },
+    { "source": "/quizflex", "destination": "/quizflex.html" }
   ]
 }

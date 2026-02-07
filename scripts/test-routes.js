@@ -37,6 +37,7 @@ const staticPaths = [
 
 // Blog post URLs (paths under /blogs/)
 const blogSlugs = [
+  'introducing-quizflex-ai.html',
   'a-beginners-guide-to-building-dynamics-365-model-driven-apps.html',
   'How-To-Add-Apps-To-Your-Office-365-SharePoint-Online-Site.html',
   'How-To-Remove-App-for-SharePoint-instances-from-a-SharePoint-site.html',

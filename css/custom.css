@@ -244,3 +244,9 @@ http://www.templatemo.com/tm-446-boxer
     display: inline-block;
     margin-right: 5px; /* Adjust spacing as needed */
 }
+
+/* Navbar logo: same size initially as when scrolled */
+.navbar .navbar-brand img.logo-light,
+.navbar .navbar-brand img.logo-dark {
+    max-height: 60px;
+}

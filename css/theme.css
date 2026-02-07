@@ -1471,6 +1471,7 @@ fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, f
 	margin: 40px 0;
 }
 .counter h1 {
+	display: inline;
 	font-size: 56px;
 	line-height: 1;
 	font-feature-settings: 'lnum';
@@ -1478,6 +1479,12 @@ fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, f
 	-ms-font-feature-settings: 'lnum';
 	-webkit-font-feature-settings: 'lnum';
 	-o-font-feature-settings: 'lnum';
+}
+.counter .counter-suffix {
+	display: inline;
+	font-size: 56px;
+	line-height: 1;
+	font-weight: 700;
 }
 
 /*////////////////////////////////////////
