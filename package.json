@@ -1,0 +1,10 @@
+{
+  "name": "chronodat-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:routes": "node scripts/test-routes.js",
+    "test:routes:local": "node scripts/test-routes.js http://localhost:3000",
+    "test:routes:vercel": "node scripts/test-routes.js https://chronodat-web.vercel.app"
+  }
+}
