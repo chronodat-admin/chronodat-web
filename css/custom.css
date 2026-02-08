@@ -279,10 +279,29 @@ http://www.templatemo.com/tm-446-boxer
     height: 60px;
     min-width: 120px;
 }
+/* Footer logo – 180px height */
 #footer .footer-logo,
-.footer .footer-logo {
-    max-height: 56px;
-    width: auto;
-    height: auto;
-    filter: brightness(0) invert(1); /* same SVG, light on dark footer */
+.footer .footer-logo,
+.footer.style-1.dark .footer-logo {
+    height: 180px !important;
+    max-height: 180px !important;
+    width: auto !important;
+    min-height: 180px;
+    object-fit: contain;
+}
+/* Footer – compact layout: collapse empty SVG whitespace with negative margins */
+.footer.style-1.dark {
+    padding: 10px 0 10px 0 !important;
+}
+.footer.style-1.dark > a:first-of-type img.footer-logo {
+    margin-top: -50px;
+    margin-bottom: -55px;
+}
+.footer.style-1.dark ul {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.footer.style-1.dark > a,
+.footer.style-1.dark > p {
+    margin-bottom: 2px;
 }
