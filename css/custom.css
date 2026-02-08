@@ -245,8 +245,44 @@ http://www.templatemo.com/tm-446-boxer
     margin-right: 5px; /* Adjust spacing as needed */
 }
 
-/* Navbar logo: same size initially as when scrolled */
+/* Navbar logo – match working browser cascade (order: logo-light/dark then chronodat-logo so 200px applies) */
+.navbar .navbar-brand {
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+}
+/* Dark mode: chronodat-logo-white.svg (for dark nav), no filter */
 .navbar .navbar-brand img.logo-light,
 .navbar .navbar-brand img.logo-dark {
-    max-height: 60px;
+    max-height: none;
+    height: 72px;
+    width: auto;
+    min-width: 140px;
+    object-fit: contain;
+    object-position: left center;
+}
+.navbar .navbar-brand img[src*="chronodat-logo"],
+.navbar .navbar-brand img.navbar-brand-logo {
+    max-height: none;
+    height: 200px;
+    width: auto;
+    min-width: 140px;
+    object-fit: contain;
+}
+.nav-small .navbar .navbar-brand img.logo-light,
+.nav-small .navbar .navbar-brand img.logo-dark {
+    height: 60px;
+    min-width: 120px;
+}
+.nav-small .navbar .navbar-brand img[src*="chronodat-logo"],
+.nav-small .navbar .navbar-brand img.navbar-brand-logo {
+    height: 60px;
+    min-width: 120px;
+}
+#footer .footer-logo,
+.footer .footer-logo {
+    max-height: 56px;
+    width: auto;
+    height: auto;
+    filter: brightness(0) invert(1); /* same SVG, light on dark footer */
 }

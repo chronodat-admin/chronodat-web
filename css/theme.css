@@ -3397,11 +3397,16 @@ nav.navbar.nav-small {
 	padding: 0;
 }
 .navbar-brand img {
-	max-height: 68px;
+	max-height: none;
+	height: 72px;
 	max-width: none;
+	width: auto;
+	min-width: 140px;
+	object-fit: contain;
 }
 .nav-small .navbar-brand img {
-	max-height: 60px;
+	height: 60px;
+	min-width: 120px;
 }
 /* Menu Items */
 .navbar-nav>li>a {
@@ -3661,7 +3666,10 @@ nav.navbar.nav-small {
 	}
 	.navbar-brand img,
 	.nav-small .navbar-brand img {
-		max-height: 100%;
+		height: 56px;
+		min-width: 100px;
+		width: auto;
+		object-fit: contain;
 	}
 	.navbar-toggle {
 		border: none;
