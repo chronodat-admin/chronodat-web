@@ -137,8 +137,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://www.chronodat.com/img/quizflex/dashboard.png</image:loc>
-      <image:title>QuizFlex AI Dashboard</image:title>
+      <image:loc>https://www.chronodat.com/img/assets/quizflexAI-image.png</image:loc>
+      <image:title>QuizFlex AI</image:title>
     </image:image>
   </url>
 
